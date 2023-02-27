@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'CeraRoundProBold';
+    src: url('./fonts/FontsFree-Net-Cera-Round-Pro3.ttf');
+}
+*{
+    max-width: 600px;
+    max-height: 1874px;
+    margin: auto;
+    padding: 0;
+}
+p{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(./img/Ellipse.svg);
+    background-position: 0 24%;
+    background-size: auto, auto;
+    background-repeat: no-repeat;
+    font-family: 'CeraRoundProBold';
+}
+.logo{
+    padding: 0;
+    width: 25%;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+div.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 78.5%;
+    margin: auto;
+}
+.centreimg{
+    width: auto;
+    margin: 1.5%;
+}
+.title{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 8px;
+}
+.text{
+    line-height: 148%;
+    letter-spacing: 0.02em;
+}
+.introduction{
+    padding: 3%;
+}
+.introduction h2{
+    position: relative;
+    color: #0F2A5A;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    margin-top: 4.7%;
+    margin-bottom: 4%;
+}
+.introduction h3, .introduction p{
+    padding-bottom: 2%;
+    color: #28313F;
+    letter-spacing: -0.01em;
+    line-height: 22px;
+    mix-blend-mode: normal;
+}
+.introduction .demoimg{
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: 1.5%;
+}
+ul{
+    margin-top: 4%;
+    list-style: none;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    color: #28313F;
+    margin-bottom: 3%;
+}
+.servise_text{
+    margin-left: 5%;
+    width: auto;
+    height: auto;
+}
+.servise_text h4{
+    margin-bottom: 2%;
+}
+.icons{
+    margin-top: 0%;
+}
+.button_back{
+    margin-top: 4%;
+    background-color: #E2E6EB;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.button_back p{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #0E2D54;
+    font-weight: bold;
+}
+.button{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 42%;
+    height: auto;
+    background-color: #63AE18;
+    border-radius: 100px;
+    padding: 2%;
+}
+.button p{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+.farewell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.farewell p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    mix-blend-mode: normal;
+    color: #0E2D54;
+}
+.img_text{
+    display: flex;
+    align-items: center;
+}
+.img_text p{
+    padding-left: 4%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #0F2A5A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.bottom{
+    background-color: #153769;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.networks{
+    margin: 7%;
+}
+.networks .icons{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacts a, .rules_safety a{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.telefon, .Privacy_Policy{
+    padding-top: 7%;
+}
+.rules_safety{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width:300px){
+    .logo{
+        margin-left: auto;
+    }
+}
